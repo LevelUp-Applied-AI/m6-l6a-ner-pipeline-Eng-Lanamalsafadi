@@ -10,6 +10,7 @@ Run: python ner_pipeline.py
 import pandas as pd
 import numpy as np
 import spacy
+import unicodedata 
 from transformers import pipeline as hf_pipeline
 
 
